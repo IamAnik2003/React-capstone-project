@@ -1,0 +1,36 @@
+/* components.css */
+.input-style {
+    border-radius: 3.82px;
+    border: none;
+    background-color: #292929;
+    color: white;
+    height: 28px;
+    width: 500px;
+    padding: 10px;
+    font-size: 14px; /* Optional: Add a font-size for better readability */
+}
+.submit-button {
+    width: 518px;
+    height: 55px;
+    background-color: #72DB73;
+    border-radius: 28px;
+    color: white;
+    font-family: Roboto, sans-serif; /* Added fallback font */
+    font-size: 29px;
+    font-weight: 600;
+    line-height: 31.52px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin: 5px;
+    padding: 5px;
+    border: none; /* Ensure no default border appears */
+    cursor: pointer; /* Add a pointer cursor for buttons */
+}
+
+/* Optional: Add a hover effect */
+.submit-button:hover {
+    background-color: #469b46;
+    transition: background-color 0.3s ease;
+}
